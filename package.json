@@ -35,5 +35,10 @@
   "bugs": {
     "url": "https://github.com/petkit-io/ngx-upload-oss/issues"
   },
-  "homepage": "https://github.com/petkit-io/ngx-upload-oss#readme"
+  "homepage": "https://github.com/petkit-io/ngx-upload-oss#readme",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
 }
