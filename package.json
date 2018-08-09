@@ -1,0 +1,39 @@
+{
+  "name": "@petkit/ngx-upload-oss",
+  "version": "1.0.0",
+  "description": "ali oss uploader",
+  "main": "index.js",
+  "scripts": {
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
+  },
+  "ngPackage": {
+    "dest": "../../dist/lib",
+    "lib": {
+      "entryFile": "public-api.ts",
+      "umdModuleIds": {}
+    },
+    "whitelistedNonPeerDependencies": []
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "peerDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/petkit-io/ngx-upload-oss.git"
+  },
+  "keywords": [
+    "angular",
+    "oss",
+    "upload"
+  ],
+  "author": "liuxin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/petkit-io/ngx-upload-oss/issues"
+  },
+  "homepage": "https://github.com/petkit-io/ngx-upload-oss#readme"
+}
