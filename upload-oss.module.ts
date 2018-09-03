@@ -3,8 +3,7 @@ import { CommonModule } from '@angular/common';
 
 @NgModule({
   imports: [
-    CommonModule
-  ],
-  declarations: []
+    CommonModule,
+  ]
 })
 export class UploadOssModule { }
